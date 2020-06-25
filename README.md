@@ -1,6 +1,5 @@
 # In-ynieria-Oprogramowania
-Eichner
+Me
 Data
-Godzina
-Minuta
-Sekunda
+H:
+S:
