@@ -1,5 +1,4 @@
-# In-ynieria-Oprogramowania
-Me
+# In¿ynieria-Oprogramowania
+Imie
+Nazwisko
 Data
-H:
-S:
