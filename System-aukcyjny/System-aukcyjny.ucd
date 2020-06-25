@@ -1,0 +1,1279 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>15.0.7475</SavedWith>
+    <CreatedWith>13.0.6862</CreatedWith>
+  </VersionInfo>
+  <Project>
+    <TrackChanges>false</TrackChanges>
+  </Project>
+  <TopLevelElement>
+    <RefID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</UniqueID>
+    <Name>System-aukcyjny</Name>
+  </Package>
+  <Package>
+    <UniqueID>P-8a7a08e2-ee52-4cd5-bea8-d673bb61800d</UniqueID>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Name>Procesy biznesowe</Name>
+    <Sequence>1</Sequence>
+  </Package>
+  <Package>
+    <UniqueID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</UniqueID>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Name>Przypadki użycia</Name>
+    <Sequence>2</Sequence>
+  </Package>
+  <Package>
+    <UniqueID>P-7fd6f470-3776-4c4c-ae81-1322a4add1a5</UniqueID>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Name>Diagramy</Name>
+    <Sequence>3</Sequence>
+  </Package>
+  <Package>
+    <UniqueID>P-84ed39a7-461e-43c4-b846-5e1c2f4df423</UniqueID>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Name>Reguły biznesowe i słownik</Name>
+    <Sequence>4</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-8e494993-a119-487b-bfe5-539386eca324</UniqueID>
+    <UserID>UC-1</UserID>
+    <ParentID>P-8a7a08e2-ee52-4cd5-bea8-d673bb61800d</ParentID>
+    <Name>Sprzedaż aukcyjna</Name>
+    <Description>Proces biznesowy opisujący sprzedaż za pomocą mechanizmu aukcyjnego. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Proces biznesowy opisuj\'b9cy sprzeda\'bf za pomoc\'b9 mechanizmu aukcyjnego. \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level>Summary</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2018-11-03T15:54:25.9134019+01:00</DateAdded>
+    <DateModified>2018-11-07T08:15:20.1273221+01:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f46d8d7f-c66b-47a9-a357-61e03586a314</UniqueID>
+    <UserID>UC-2</UserID>
+    <ParentID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</ParentID>
+    <Name>Wystawienia produktu na aukcji</Name>
+    <Description>Przekazanie produktu na aukcję.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Przekazanie \cf1 produktu\cf2  na \cf1 aukcj\'ea\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Sprzedający jest zalogowany.</PreConditions>
+    <PostConditions />
+    <Level>User</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2018-11-07T08:15:05.5951258+01:00</DateAdded>
+    <DateModified>2020-06-25T23:13:56.3356002+02:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-b66f09e2-5bfb-4258-a045-a79058d103b2</UniqueID>
+    <UserID>UC-3</UserID>
+    <ParentID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</ParentID>
+    <Name>Przekazanie należność Sprzedającemu</Name>
+    <Description>System przekazuje odpowiednią należność od Kupującego do Sprzedającego.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 System przekazuje odpowiedni\'b9 nale\'bfno\'9c\'e6 od Kupuj\'b9cego do Sprzedaj\'b9cego.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Kupujący jest zalogowany.</PreConditions>
+    <PostConditions />
+    <Level>User</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-06-25T22:48:08.6966002+02:00</DateAdded>
+    <DateModified>2020-06-25T23:16:16.7446002+02:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-52968cc4-4880-405b-8ad4-6b4cca23c350</UniqueID>
+    <UserID>UC-4</UserID>
+    <ParentID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</ParentID>
+    <Name>Wygranie aukcji (REQ-2)</Name>
+    <Description>Gdy aukcja się zakończy, system informuje Kupującego z najwyższą ofetrą o wygranej.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Gdy \cf1 aukcja\cf2  si\'ea zako\'f1czy, system informuje Kupuj\'b9cego z najwy\'bfsz\'b9 ofetr\'b9 o wygranej.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level>Summary</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-06-25T22:48:08.7086002+02:00</DateAdded>
+    <DateModified>2020-06-25T23:17:06.9406002+02:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-fe418259-076c-4c41-9f0e-6edcc8f600d3</UniqueID>
+    <UserID>UC-5</UserID>
+    <ParentID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</ParentID>
+    <Name>Zaoferowanie najwyższej kwoty za produkt (REQ-1)</Name>
+    <Description>Kupujący wyraża chęć złożenia ofery i po otrzymaniu informacji zwrotnej o aktualnie najwyższej ofercie składa nową - wyższą.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  wyra\'bfa ch\'ea\'e6 z\'b3o\'bfenia ofery i po otrzymaniu informacji zwrotnej o aktualnie najwy\'bfszej ofercie sk\'b3ada now\'b9 - wy\'bfsz\'b9.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Kupujący jest zalogowany.</PreConditions>
+    <PostConditions />
+    <Level>User</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-06-25T22:48:08.7126002+02:00</DateAdded>
+    <DateModified>2020-06-25T23:42:03.7666002+02:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-45a8e77e-39be-4398-b107-22d7f754914a</UniqueID>
+    <UserID>UC-6</UserID>
+    <ParentID>P-ebf80de3-a6d9-4a3a-9121-522b16666568</ParentID>
+    <Name>Przekazanie produktu Kupującemu</Name>
+    <Description>Po zakończeniu aukcji Sprzedający przekazuje produkt Kupującemu, który złożył najwyższą oferte.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Po zako\'f1czeniu aukcji \cf1\ul Sprzedaj\'b9cy\cf2\ulnone  przekazuje \cf3 produkt\cf2  Kupuj\'b9cemu, kt\'f3ry z\'b3o\'bfy\'b3 najwy\'bfsz\'b9 oferte.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Sprzedający jest zalogowany.
+Kupujący jest zalogowany.</PreConditions>
+    <PostConditions />
+    <Level>User</Level>
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-06-25T22:48:08.7246002+02:00</DateAdded>
+    <DateModified>2020-06-25T23:18:48.1136002+02:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-d2081f6a-18e0-4661-82e2-a3b24ae35d4a</UniqueID>
+    <ParentID>P-7fd6f470-3776-4c4c-ae81-1322a4add1a5</ParentID>
+    <Name>Diagram kontekstu</Name>
+    <Sequence>0</Sequence>
+    <FileName>Diagram kontekstu.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-a3b1a47a-6c58-4511-98e5-696d2b5ce14a</UniqueID>
+    <ParentID>P-7fd6f470-3776-4c4c-ae81-1322a4add1a5</ParentID>
+    <Name>Diagram przypadków użycia</Name>
+    <Sequence>1</Sequence>
+    <FileName>Diagram przypadków użycia.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-f9237973-46da-4dfb-8a16-3088bdc37c50</UniqueID>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Name>Sprzedaż aukcyjna</Name>
+    <Sequence>0</Sequence>
+    <FileName>Sprzedaż aukcyjna.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <ElementStub>
+    <ParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ParentID>
+    <Path>Aktorzy.ucp</Path>
+    <ElementID>P-90074208-fc45-4b82-b86a-93e752f99363</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <UCActor>
+    <ParentID>UC-8e494993-a119-487b-bfe5-539386eca324</ParentID>
+    <ActorID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8e494993-a119-487b-bfe5-539386eca324</ParentID>
+    <ActorID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-f46d8d7f-c66b-47a9-a357-61e03586a314</ParentID>
+    <ActorID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-b66f09e2-5bfb-4258-a045-a79058d103b2</ParentID>
+    <ActorID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-52968cc4-4880-405b-8ad4-6b4cca23c350</ParentID>
+    <ActorID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-fe418259-076c-4c41-9f0e-6edcc8f600d3</ParentID>
+    <ActorID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-45a8e77e-39be-4398-b107-22d7f754914a</ParentID>
+    <ActorID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</UniqueID>
+    <ParentID>UC-8e494993-a119-487b-bfe5-539386eca324</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</UniqueID>
+    <ParentID>UC-f46d8d7f-c66b-47a9-a357-61e03586a314</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</UniqueID>
+    <ParentID>UC-b66f09e2-5bfb-4258-a045-a79058d103b2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d5011182-7a4b-4353-b9e7-2fb2406be2ac</UniqueID>
+    <ParentID>UC-52968cc4-4880-405b-8ad4-6b4cca23c350</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</UniqueID>
+    <ParentID>UC-fe418259-076c-4c41-9f0e-6edcc8f600d3</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</UniqueID>
+    <ParentID>UC-45a8e77e-39be-4398-b107-22d7f754914a</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-b3fddc3d-f713-4d71-adc8-4b6dc9b47eb4</UniqueID>
+    <UserID>REQ-1</UserID>
+    <ParentID>P-84ed39a7-461e-43c4-b846-5e1c2f4df423</ParentID>
+    <Name>Złożenie oferty</Name>
+    <Description>Złożenie oferty wymaga zaproponowania kwoty wyższej niż aktualnie oferowana o minimum 1,00 PLN.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Z\'b3o\'bfenie oferty wymaga zaproponowania kwoty wy\'bfszej ni\'bf aktualnie oferowana o minimum 1,00 PLN.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-11-03T16:25:53.9348436+01:00</DateAdded>
+    <DateModified>2018-11-03T16:33:17.269593+01:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b264a769-b4b6-4974-b589-323b4aeb2556</UniqueID>
+    <UserID>REQ-2</UserID>
+    <ParentID>P-84ed39a7-461e-43c4-b846-5e1c2f4df423</ParentID>
+    <Name>Rozstrzygnięcie aukcji</Name>
+    <Description>Aukcję wygrywa ten z Kupujących, który w momencie jej zakończenia złożył najwyższą ofertę.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Aukcj\'ea\cf2  wygrywa ten z Kupuj\'b9cych, kt\'f3ry w momencie jej zako\'f1czenia z\'b3o\'bfy\'b3 najwy\'bfsz\'b9 ofert\'ea.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Business Rule</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-11-03T16:28:11.9457042+01:00</DateAdded>
+    <DateModified>2018-11-03T16:33:19.6101961+01:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Step>
+    <UniqueID>ST-61c9bd1d-af27-4bbc-be54-95fad33e5463</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Sprzedający wystawia produkt na aukcję. (UC-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Sprzedaj\'b9cy\cf0\ulnone  wystawia produkt na \cf2 aukcj\'ea\cf3 . (\cf1\ul UC-2\cf3\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-89f0dd32-82e8-4fc2-a2ac-9559be9c2f90</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Kupujący oferuje kwotę za produkt wyższą od aktualnie najwyższej oferty (REQ-1).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf0\ulnone  oferuje kwot\'ea za produkt wy\'bfsz\'b9 od aktualnie najwy\'bfszej oferty\cf2  (\cf1\ul REQ-1\cf2\ulnone )\cf0 .\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f282f915-4bc0-4f1a-b8b4-cec2a265f574</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Czas aukcji upłynął i Kupujący wygrywa aukcję (REQ-2).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Czas aukcji up\'b3yn\'b9\'b3 i \cf2\ul Kupuj\'b9cy\cf1\ulnone  wygrywa \cf3 aukcj\'ea\cf1  (\cf2\ul REQ-2\cf1\ulnone ).\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a52920f6-278b-4d5b-bad2-0e3e1decc74b</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Kupujący przekazuje należność Sprzedającemu.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Kupuj\'b9cy przekazuje nale\'bfno\'9c\'e6 Sprzedaj\'b9cemu.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5a65e543-5742-4f72-b26b-5dee75d9a048</UniqueID>
+    <ParentID>X-34c4547d-8c52-4d0b-95d6-7af0b8e0461a</ParentID>
+    <Description>Koniec przypadku użycia.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Koniec przypadku u\'bfycia.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb3a56e1-81b5-48d9-afde-3a7c637966c8</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Sprzedający przekazuje produkt Kupującemu.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Sprzedaj\'b9cy przekazuje produkt Kupuj\'b9cemu.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-60387b49-28e3-47b3-b55f-027fd2e8c1c5</UniqueID>
+    <ParentID>X-60ae76bc-70ca-492a-9c79-165dfa18855c</ParentID>
+    <Description>Przejdź do kroku 2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Przejd\'9f do kroku 2.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a97939e2-d33e-4526-82d6-69f4099abe1e</UniqueID>
+    <ParentID>MSS-df08904a-8a1b-418f-bba3-218a0677a37e</ParentID>
+    <Description>Koniec przypadku użycia</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Koniec przypadku u\'bfycia\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-25bd6512-a7bb-48b2-9d10-0147e1815485</UniqueID>
+    <ParentID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</ParentID>
+    <Description>Sprzedający informuje system o chęci wystawienia produktu na aukcję.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Sprzedaj\'b9cy\cf2\ulnone  informuje system o ch\'eaci wystawienia \cf3 produktu\cf2  na \cf3 aukcj\'ea\cf2 .\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71534dc4-54f9-4d5e-8458-1b5cdfc8755c</UniqueID>
+    <ParentID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</ParentID>
+    <Description>System prosi o podanie danych produktu.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System prosi o podanie danych produktu.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6eb758e1-3380-4318-9469-230fd7087596</UniqueID>
+    <ParentID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</ParentID>
+    <Description>Sprzedający podaje dane produktu oraz cenę wywoławczą.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Sprzedaj\'b9cy\cf2\ulnone  podaje dane produktu oraz cen\'ea wywo\'b3awcz\'b9.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2086538a-87c9-4835-ba0e-d0d03f78a5fa</UniqueID>
+    <ParentID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</ParentID>
+    <Description>System weryfikuje poprawność danych.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System weryfikuje poprawno\'9c\'e6 danych.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ec49d94e-a38f-418b-b06d-e776362e6c1b</UniqueID>
+    <ParentID>MSS-b8cc7da0-3180-491a-a70e-7259226ae926</ParentID>
+    <Description>System informuje o pomyślnym wystawieniu produktu.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o pomy\'9clnym wystawieniu produktu.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-064e49dc-081c-4200-b6fc-3e3ac916bcb7</UniqueID>
+    <ParentID>X-19451293-fcbd-455d-b4be-bcdd90b8cb63</ParentID>
+    <Description>System informuje o błędnie podanych danych.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o b\'b3\'eadnie podanych danych.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6f3f151b-41a8-410b-abf9-b7584c065ae5</UniqueID>
+    <ParentID>X-19451293-fcbd-455d-b4be-bcdd90b8cb63</ParentID>
+    <Description>Przejdź do kroku 2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Przejd\'9f do kroku 2.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acc60179-4974-493e-9dcb-101f5f899230</UniqueID>
+    <ParentID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</ParentID>
+    <Description>Kupujący informuje system o chęci zapłacenia Sprzedającemu za produkt</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  informuje system o ch\'eaci zap\'b3acenia Sprzedaj\'b9cemu za produkt\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f811aef6-361b-431e-9940-b1616d83ed93</UniqueID>
+    <ParentID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</ParentID>
+    <Description>System prosi o podanie danych transakcji</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System prosi o podanie danych transakcji\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-cbb23140-7ed5-482f-b154-9cd1abadc8c9</UniqueID>
+    <ParentID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</ParentID>
+    <Description>Kupujący podaje kwote oraz dane produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  podaje kwote oraz dane produktu\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d016f81a-feb1-4b86-b76a-d05b045bfe87</UniqueID>
+    <ParentID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</ParentID>
+    <Description>System weryfikuje poprawność danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System weryfikuje poprawno\'9c\'e6 danych\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0cf3ab19-ed10-4a83-8ab0-66ed603392d8</UniqueID>
+    <ParentID>MSS-35e77dd0-cfb1-4f57-99d5-65dae46515f1</ParentID>
+    <Description>System informuje o pomyślnym przekazaniu płatności Sprzedającemu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o pomy\'9clnym przekazaniu p\'b3atno\'9cci Sprzedaj\'b9cemu\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fdc45146-62b0-4d7b-8ff4-0dbeff3c4493</UniqueID>
+    <ParentID>X-8569eec2-9dbe-45f8-b343-478e14b303dc</ParentID>
+    <Description>System przekazuje informacje o błędzie</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System przekazuje informacje o b\'b3\'eadzie\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99ac9981-ea4e-49f4-9345-e5a8664e2390</UniqueID>
+    <ParentID>X-8569eec2-9dbe-45f8-b343-478e14b303dc</ParentID>
+    <Description>Wróć do punktu 2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Wr\'f3\'e6 do punktu 2.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-241c863b-57f4-4d8c-9e32-fbb570dc6000</UniqueID>
+    <ParentID>MSS-d5011182-7a4b-4353-b9e7-2fb2406be2ac</ParentID>
+    <Description>Po wygraniu akcji system informuje Kupującego od największej oferty o wygraniu aukcji</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Po wygraniu akcji system informuje \cf1 Kupuj\'b9cego od najwi\'eakszej oferty o wygraniu aukcji\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08bb64b6-f5d1-4338-b632-69de10fa5572</UniqueID>
+    <ParentID>MSS-d5011182-7a4b-4353-b9e7-2fb2406be2ac</ParentID>
+    <Description>Kupujący potwierdza udział w aukcji</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  potwierdza udzia\'b3 w aukcji\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b8c94f74-cf84-47c2-9cef-9fe409119480</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>Kupujący informuje system o chęci zaoferowania kwoty za produkty</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  informuje system o ch\'eaci zaoferowania kwoty za produkty\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f9d4548c-7591-4a4c-9b16-fbd04b54e11f</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>System prosi o podanie danych produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System prosi o podanie danych produktu\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2ea578ca-7d47-41e9-8013-edc66b91d2aa</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>Kupujący podaje dane produktu </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  podaje dane produktu \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eb927c7a-3bd3-42d9-908b-51f99f298d46</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>System weryfikuje poprawność danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System weryfikuje poprawno\'9c\'e6 danych\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c621ec41-9190-4cbc-8cbc-3117cd0ad94b</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>System informuje Kupującego o akualnie najwyższej kwocie za produkt</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje Kupuj\'b9cego o akualnie najwy\'bfszej kwocie za produkt\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6e20fa87-325f-4362-9503-af20b363f53b</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>Kupujący oferuje swoją - wyższą kwote</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  oferuje swoj\'b9 - wy\'bfsz\'b9 kwote\cf0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-729e81a5-9ff9-4323-a255-dea740ecb15b</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>System weryfikuje poprawność danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System weryfikuje poprawno\'9c\'e6 danych\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a35808dc-dca0-47c8-9456-bcaa88939706</UniqueID>
+    <ParentID>MSS-e5e066d8-5dcb-4dec-b06b-aba8d9c2bf81</ParentID>
+    <Description>System informuje o pomyślnym przyjęciu oferty Kupującego</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o pomy\'9clnym przyj\'eaciu oferty Kupuj\'b9cego\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c9f2b420-d910-423f-88f7-9bfbcea16c26</UniqueID>
+    <ParentID>X-427686ca-6fde-47c8-b5e1-065d1c03fd31</ParentID>
+    <Description>System informuje o błędzie podanych danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o b\'b3\'eadzie podanych danych\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-88ba491b-0edb-4623-8c6d-5ba6c6439270</UniqueID>
+    <ParentID>X-427686ca-6fde-47c8-b5e1-065d1c03fd31</ParentID>
+    <Description>Przejdź do kroku 2.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Przejd\'9f do kroku 2.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d5c5355-85e5-43f8-8083-df8e6ce411f6</UniqueID>
+    <ParentID>X-2a4170ba-68a1-4426-b977-387f38a6e6ca</ParentID>
+    <Description>System informuje o błędzie podanych danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o b\'b3\'eadzie podanych danych\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3a80a5a2-4103-4dd1-9789-526afb5b5e5b</UniqueID>
+    <ParentID>X-2a4170ba-68a1-4426-b977-387f38a6e6ca</ParentID>
+    <Description>Przejdź do kroku 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Przejd\'9f do kroku 5.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3c9618ba-820c-4003-93d8-8443fe80f23d</UniqueID>
+    <ParentID>MSS-d5011182-7a4b-4353-b9e7-2fb2406be2ac</ParentID>
+    <Description>System informuje Sprzedającego o zwycięzcy aukcji</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje Sprzedaj\'b9cego o zwyci\'eazcy aukcji\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c6334135-1a69-46f2-9bca-a747edf99d5e</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>Sprzedający informuje Kupującego o chęci przekazania produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Sprzedaj\'b9cy\cf2\ulnone  informuje Kupuj\'b9cego o ch\'eaci przekazania produktu\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-27a2c7e0-1959-4df7-a01f-54ca8cc6ce2f</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>Kupujący potwierdza chęć otrzymania</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  potwierdza ch\'ea\'e6 otrzymania\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6a45bbdd-9479-46a4-8eb8-227b0b9c649f</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>System prosi o podanie danych produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 System prosi o podanie danych produktu\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2c6c3b46-85d8-431a-aa95-0ab63ad3c00d</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>Kupujący podaje dane produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Kupuj\'b9cy\cf2\ulnone  podaje dane produktu\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ee2bd14c-f88a-4198-99f6-61031d94454d</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>System weryfikuje poprawność danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System weryfikuje poprawno\'9c\'e6 danych\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f54f9cb9-8c40-4151-af54-6ec49c95e20a</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>System informuje Sprzedającego o poprawności danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje Sprzedaj\'b9cego o poprawno\'9cci danych\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-30f0485f-4c40-4682-93c8-3d492657eeeb</UniqueID>
+    <ParentID>MSS-c56846ee-a384-483d-a442-d2d7dd7e42c0</ParentID>
+    <Description>Sprzedający przekazuje produkt Kupującemu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Sprzedaj\'b9cy\cf2\ulnone  przekazuje produkt Kupuj\'b9cemu\cf0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-eb83d8a0-43c7-456d-b3a2-2ba7235f3347</UniqueID>
+    <ParentID>X-4f7cffdc-b40c-4018-bce7-6b31dd2ad34a</ParentID>
+    <Description>System informuje o błędzie podanych danych</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 System informuje o b\'b3\'eadzie podanych danych\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8aa330f9-cdf6-4178-abae-ef97e2481d79</UniqueID>
+    <ParentID>X-4f7cffdc-b40c-4018-bce7-6b31dd2ad34a</ParentID>
+    <Description>Przejdź do kroku 3.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Przejd\'9f do kroku 3.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-34c4547d-8c52-4d0b-95d6-7af0b8e0461a</UniqueID>
+    <ParentID>ST-f282f915-4bc0-4f1a-b8b4-cec2a265f574</ParentID>
+    <Description>Czas aukcji upłynął i Kupujący przegrał aukcję (REQ-2).</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Czas aukcji up\'b3yn\'b9\'b3 i \cf1\ul Kupuj\'b9cy\cf0\ulnone  przegra\'b3 \cf2 aukcj\'ea\cf3  (\cf1\ul REQ-2\cf3\ulnone ).\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-60ae76bc-70ca-492a-9c79-165dfa18855c</UniqueID>
+    <ParentID>ST-89f0dd32-82e8-4fc2-a2ac-9559be9c2f90</ParentID>
+    <Description>Oferta Kupującego została przebita, a Kupujący pragnie przebić aktualnie najwyższą ofertę.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Oferta Kupuj\'b9cego zosta\'b3a przebita, a \cf2\ul Kupuj\'b9cy\cf1\ulnone  pragnie przebi\'e6 aktualnie najwy\'bfsz\'b9 ofert\'ea.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-19451293-fcbd-455d-b4be-bcdd90b8cb63</UniqueID>
+    <ParentID>ST-2086538a-87c9-4835-ba0e-d0d03f78a5fa</ParentID>
+    <Description>Podano niepoprawne lub niekompletne dane produktu.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Podano niepoprawne lub niekompletne dane produktu.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-8569eec2-9dbe-45f8-b343-478e14b303dc</UniqueID>
+    <ParentID>ST-d016f81a-feb1-4b86-b76a-d05b045bfe87</ParentID>
+    <Description>Podano nieprawidłową kwotę lub dane</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Podano nieprawid\'b3ow\'b9 kwot\'ea lub dane\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-427686ca-6fde-47c8-b5e1-065d1c03fd31</UniqueID>
+    <ParentID>ST-eb927c7a-3bd3-42d9-908b-51f99f298d46</ParentID>
+    <Description>Podano niepoprawne lub niekompletne dane produktu</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Podano niepoprawne lub niekompletne dane produktu\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-2a4170ba-68a1-4426-b977-387f38a6e6ca</UniqueID>
+    <ParentID>ST-729e81a5-9ff9-4323-a255-dea740ecb15b</ParentID>
+    <Description>Podano niepoprawną lub niższą od aktualnie najwyższej kwote</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Podano niepoprawn\'b9 lub ni\'bfsz\'b9 od aktualnie najwy\'bfszej kwote\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-4f7cffdc-b40c-4018-bce7-6b31dd2ad34a</UniqueID>
+    <ParentID>ST-ee2bd14c-f88a-4198-99f6-61031d94454d</ParentID>
+    <Description>Podano niepoprawne dane</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Podano niepoprawne dane\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>7</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>3</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <DictionaryEntry>
+    <UniqueID>D2-c7c8d921-fa81-40c3-b7e7-003ff9697950</UniqueID>
+    <Name>aukcja</Name>
+    <Description>Aukcja jest formą zawierania transakcji kupna-sprzedaży, w której Sprzedający określa cenę wywoławczą produktu, natomiast Kupujący mogą oferować własną ofertę zakupu każdorazowo proponując kwotę wyższą od aktualnie oferowanej kwoty. Aukcja kończy się po upływie określonego czasu. Jeśli złożona została co najmniej jedna oferta zakupy produkt nabywa ten Kupujący, który zaproponował najwyższą kwotę. </Description>
+    <Aliases>aukcję, Aukcja, Aukcję</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1045\f0\fs20 Aukcja\cf0  jest form\'b9 zawierania transakcji kupna-sprzeda\'bfy, w kt\'f3rej \cf2\ul Sprzedaj\'b9cy\cf0\ulnone  okre\'9cla cen\'ea wywo\'b3awcz\'b9 \cf1 produktu\cf0 , natomiast \cf2\ul Kupuj\'b9cy\cf0\ulnone  mog\'b9 oferowa\'e6 w\'b3asn\'b9 ofert\'ea zakupu ka\'bfdorazowo proponuj\'b9c kwot\'ea wy\'bfsz\'b9 od aktualnie oferowanej kwoty. \cf1 Aukcja\cf0  ko\'f1czy si\'ea po up\'b3ywie okre\'9clonego czasu. Je\'9cli z\'b3o\'bfona zosta\'b3a co najmniej jedna oferta zakupy \cf1 produkt\cf0  nabywa ten \cf2\ul Kupuj\'b9cy\cf0\ulnone , kt\'f3ry zaproponowa\'b3 najwy\'bfsz\'b9 kwot\'ea. \par
+}
+</RichDescription>
+    <ParentID>P-84ed39a7-461e-43c4-b846-5e1c2f4df423</ParentID>
+    <UserID>DEF-1</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-3328fbf8-4d3f-4ce2-afc5-33773cf11a61</UniqueID>
+    <Name>produkt</Name>
+    <Description>Obiekt aukcyjny. Wystawiany na sprzedaż przez Sprzedającego z możliwością zakupu przez Kupującego, który zaoferuje najwyższą kwote wykupu.</Description>
+    <Aliases>produktu</Aliases>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\lang1045\f0\fs20 Obiekt aukcyjny. Wystawiany na sprzeda\'bf przez Sprzedaj\'b9cego z mo\'bfliwo\'9cci\'b9 zakupu przez Kupuj\'b9cego, kt\'f3ry zaoferuje najwy\'bfsz\'b9 kwote wykupu.\par
+}
+</RichDescription>
+    <ParentID>P-84ed39a7-461e-43c4-b846-5e1c2f4df423</ParentID>
+    <UserID>DEF-2</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Name Only;Initial;Base;Complete;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Proposed;Approved;Rejected;Deferred;Implemented;Mandatory;Obsolete</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>501</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the user story.</Description>
+    <DefaultValue />
+    <Choices>Must;Should;Could;Won't</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>502</UniqueID>
+    <Name>Size</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>The relative complexity of the user story.</Description>
+    <DefaultValue />
+    <Choices>X-Small;Small;Med;Large;X-Large</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>503</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this user story?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>504</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the user story.</Description>
+    <DefaultValue />
+    <Choices>Backlog;Doing;Review;Done</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+</UCTDataSet>
