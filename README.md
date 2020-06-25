@@ -1,4 +1,4 @@
-# In�ynieria-Oprogramowania
-Imie
+# Inżynieria-Oprogramowania
+Imię
 Nazwisko
 Data
