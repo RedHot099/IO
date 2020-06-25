@@ -1,5 +1,5 @@
 # In-ynieria-Oprogramowania
-Jakub Eichner
+Eichner
 Data
 Godzina
 Minuta
