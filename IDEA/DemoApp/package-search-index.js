@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"JavadocDemoPackage"},{"l":"pl.poznan.put.cs.io.DemoApp.DemoLib"},{"l":"pl.poznan.put.cs.io.DemoApp.main"}]
