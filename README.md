@@ -1,5 +1,2 @@
 ﻿# Inżynieria-Oprogramowania
-Imię
-Nazwisko
-Data
-Godzina
+Jakub Eichner - zadania z przedmiotu Inżynieria Oprogramowania
